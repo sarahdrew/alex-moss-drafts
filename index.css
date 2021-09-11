@@ -1,0 +1,97 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  background: grey;
+  position: fixed;
+  width: 100%;
+  padding: 25px;
+  text-align: center;
+  top: 0;
+  margin-left: -25px;
+}
+
+.site-wrapper {
+  margin-top: 90px;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.home-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.home-photo {
+  background-color: grey;
+  height: 662px;
+  width: 100%;
+  margin-top: 35px;
+}
+
+.alex-header {
+  margin-left: 55px;
+  align-items: center;
+  margin-top: 23%;
+}
+
+.resume-wrapper {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resume-title {
+  margin-right: 20px;
+}
+
+.resume-photo {
+  width: 80%;
+  height: 1000px;
+  background-color: grey;
+  justify-content: center;
+}
+
+.video-wrapper {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.video-title {
+  margin-right: 20px;
+}
+
+.video-content {
+  width: 30%;
+  height: 300px;
+  margin: 15px;
+  background-color: grey;
+}
+
+.gallery-wrapper {
+  margin-top: 80px;
+  display: flex;
+}
+
+.gallery-title {
+  margin-right: 20px;
+}
+
+.gallery-content {
+  width: 28%;
+  height: 395px;
+  margin: 15px;
+  background-color: grey;
+}
+
+.gallery-photos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  flex: 1;
+}
