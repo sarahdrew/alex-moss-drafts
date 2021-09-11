@@ -15,18 +15,17 @@ nav {
 .site-wrapper {
   margin-top: 90px;
   text-align: center;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .home-wrapper {
   display: flex;
   justify-content: space-around;
+  height: 100vh;
 }
 
 .home-photo {
-  background-color: grey;
-  height: 662px;
   width: 100%;
   margin-top: 35px;
 }
@@ -82,8 +81,8 @@ nav {
 }
 
 .gallery-content {
-  width: 28%;
-  height: 395px;
+  width: 45%;
+  height: 348px;
   margin: 15px;
   background-color: grey;
 }
