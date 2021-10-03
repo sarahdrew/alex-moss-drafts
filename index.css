@@ -1,15 +1,32 @@
+/* #4b7571; green
+#edba5f; yellow
+#434e94; blue
+#251c14; black
+#fcfcfc; white
+ */
+
 body {
   font-family: "Roboto", sans-serif;
 }
 
 nav {
-  background: grey;
+  background: #434e94;
+  color: #fcfcfc;
   position: fixed;
   width: 100%;
   padding: 25px;
   text-align: center;
   top: 0;
   margin-left: -25px;
+}
+a {
+  text-decoration: none;
+}
+nav a:visited {
+  color: #fcfcfc;
+}
+nav a:hover {
+  color: #edba5f;
 }
 
 .site-wrapper {
